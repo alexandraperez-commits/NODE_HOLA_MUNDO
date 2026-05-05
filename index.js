@@ -4,6 +4,12 @@ const app = express();
 function obtenerMensaje() {
   return "¡Hola Mundo desde Node.js en la nube!";
 }
+function obtenerHora() {
+  return "Hora actual: 20:51";
+}
+function Date() {
+  return "Día: 4/05/2026"
+}
 
 app.get("/", (req, res) => {
   res.send(obtenerMensaje());
