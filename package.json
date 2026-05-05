@@ -1,11 +1,15 @@
 {
-  "name": "hola-mundo",
+  "name": "hola-mundo-valeria",
   "version": "1.0.0",
+  "description": "Laboratorio de Node.js con Express para mostrar fecha y hora",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "author": "Valeria",
+  "license": "ISC"
 }
